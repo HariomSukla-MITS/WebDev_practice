@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/action.php">
+        <h2>Username & Passward</h2>
+<input type="text" placeholder="Enter UserName">
+<br>
+<input type="password" placeholder="Enter Password">
+<br>
+ <!--Label-->
+ <h2>Gender</h2>
+<input type="radio" value="Male" name="Gender"id="101">
+<label for="101">Male</label>
+<br>
+<input type="radio" value="Female" name="Gender"id="102">
+<label for="102">Female</label>
+<br>
+<!-- Class & id-->
+<h2>Subjects</h2>
+ <label for="math">
+    <input type="checkbox"value="math" name="subject" id="math">math
+ </label>
+ <br>
+  <label for="phy">
+    <input type="checkbox"value="physics" name="subject" id="phy">Physics
+ </label>
+ <br>
+  <label for="chem">
+    <input type="checkbox"value="chemistry" name="subject" id="chem">Chemistry
+ </label>
+ <br>
+  <label for="bio">
+    <input type="checkbox"value="biology" name="subject" id="bio">Biology
+ </label>
+ <br><br>
+
+ <select name="city"
+    id="city">
+    <option value="Select City">Select Your City</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+
+    </select>
+    <br><br>
+ <!--Textarea-->
+
+ <textarea name="Feedback" id="101"placeholder="Enter Your Feedback" cols="25" rows="5">Enter Your Feedback</textarea>
+ <br><br>
+
+ <input type="submit" value="Submit">
+    </form>
+
+   
+
+</body>
+</html>
