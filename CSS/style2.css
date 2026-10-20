@@ -1,0 +1,18 @@
+*{
+    color:blue;
+}
+
+h1{
+    color:pink; 
+ }
+/*        Element Selector */
+
+#Heading02{
+    color:aqua;
+}
+/*               ID Selector */
+
+.Heading03{
+    color:magenta;
+}
+/*               Class Selector */
