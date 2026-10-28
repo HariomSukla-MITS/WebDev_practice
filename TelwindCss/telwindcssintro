@@ -1,0 +1,34 @@
+1.introduction
+help of css apne html element ko style krr sakte hai with the help of telwind css or without ling html file
+
+2.using play CDN
+ <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+ copy this link from Telwind css website
+
+ 3. making navbar
+ 4. installing production{
+    Tailwindcss is best integrated with build tools like vite by installing it as a postcss plugin.
+ }
+
+ 5.installing tailwind css intelliSence{ A Vs code extesion used for suggesting classes
+
+ }
+ 6.Font Faimly {
+    class="font-mono"
+ }
+ 7. font Sizing{
+text-6xl
+ }
+ 8. Text Align{
+text-centre
+text-left
+text-right
+
+ }
+ 9.Letter spacing{
+ttracking-wider
+ }
+ margin,padding,space b/w
+ 10. Making a landing page{
+
+ }
